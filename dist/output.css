@@ -595,10 +595,6 @@ video {
   width: 100%;
 }
 
-.w-1\/6 {
-  width: 16.666667%;
-}
-
 .basis-1\/8 {
   flex-basis: 12.5%;
 }
@@ -633,10 +629,6 @@ video {
 
 .gap-16 {
   gap: 4rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .gap-11 {
