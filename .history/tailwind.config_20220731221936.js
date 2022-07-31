@@ -4,7 +4,7 @@ module.exports = {
       theme: {
         extend: {
           colors: {
-            'light-purple': '#E2E7FD',
+            'light-purple': '#E3E8FD',
             'dark-purple': '#2A2961',
           },
           flexBasis: {

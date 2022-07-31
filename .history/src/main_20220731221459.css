@@ -8,6 +8,6 @@
     }
 
     .img-button {
-        @apply mx-4 bg-light-purple text-dark-purple rounded-lg py-2 px-3 drop-shadow-xl;
+        @apply mx-4 bg-light-prp;
     }
 };

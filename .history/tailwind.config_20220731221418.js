@@ -4,8 +4,8 @@ module.exports = {
       theme: {
         extend: {
           colors: {
-            'light-purple': '#E2E7FD',
-            'dark-purple': '#2A2961',
+            'light-prp': '#E3E8FE',
+            'dark-prp': '#222222',
           },
           flexBasis: {
             '1/8': '12.5%',

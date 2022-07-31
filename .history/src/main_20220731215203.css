@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .headerLink {
+        @apply hover:border-purple-900 hover:border-b-2 hover:text-black px-2 py-5 max-h-16
+    }
+
+    .img-button {
+        @apply mx-4 light-purple
+    }
+}
