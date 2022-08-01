@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .headerLink {
+        @apply hover:border-indigo-700 hover:border-b-2 hover:text-black px-2 py-5 max-h-16
+    }
+
+    .dark-purple-button {
+        @apply rounded-md py-1 px-3 drop-shadow-xl text-sm mx-1 h-4 bg-indigo-700 text-white;
+    }
+
+    .light-purple-button {
+        @apply rounded-md py-1 px-3 drop-shadow-xl text-sm mx-1 bg-indigo-100 text-indigo-700;
+    }
+};

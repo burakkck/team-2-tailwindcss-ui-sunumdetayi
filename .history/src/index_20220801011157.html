@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script> 
+        $(function(){
+          $("#header").load("header.html");
+          $("#main-head").load("main-head.html");
+          $("#left").load("left.html"); 
+          $("#mid").load("mid.html"); 
+          $("#right").load("right.html");   
+        });
+    </script> 
+</head>
+
+<body class="bg-gray-200 text-gray-400">
+    <div id="header"></div> <!-- burak -->
+    <div class="w-full p-10" id="main">
+        <div class="flex w-full" id="main-head"></div> <!--burak -->
+        <div class="flex w-full gap-11 max-h-fit" id="main-content">
+            <div class="basis-1/8" id="left"></div> <!--burak-->
+            <div class="basis-5/8 bg-gray-300 p-3" id="mid"></div> <!--ilhan-->
+            <div class="basis-2/8" id="right"></div> <!-- ilhan -->
+        </div>
+    </div>
+    <div></div>
+</body>
+
+</html>
