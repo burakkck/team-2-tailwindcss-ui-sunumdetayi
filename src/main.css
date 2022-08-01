@@ -6,4 +6,8 @@
     .headerLink {
         @apply hover:border-indigo-700 hover:border-b-2 hover:text-black px-2 py-5 max-h-16
     }
+
+    .person-list-item {
+        border-top: 2px solid #d1d5db;
+    }
 }
