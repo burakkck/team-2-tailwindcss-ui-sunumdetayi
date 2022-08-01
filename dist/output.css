@@ -612,8 +612,17 @@ video {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   font-weight: 700;
+  text-transform: capitalize;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.tag-button::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
 }
 
 .my-2 {
@@ -665,8 +674,28 @@ video {
   height: 1rem;
 }
 
+.h-64 {
+  height: 16rem;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
 .max-h-20 {
   max-height: 5rem;
+}
+
+.max-h-96 {
+  max-height: 24rem;
 }
 
 .w-40 {
@@ -703,6 +732,10 @@ video {
 
 .basis-2\/8 {
   flex-basis: 25%;
+}
+
+.list-none {
+  list-style-type: none;
 }
 
 .flex-col {
