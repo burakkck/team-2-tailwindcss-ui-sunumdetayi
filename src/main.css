@@ -4,10 +4,44 @@
 
 @layer components {
     .headerLink {
-        @apply hover:border-indigo-700 hover:border-b-2 hover:text-black px-2 py-5 max-h-16
+        @apply hover:border-indigo-700 hover:border-b-2 hover:text-black px-2 py-5 max-h-16;
+    }
+
+    .dark-purple-button {
+        @apply dark-purple bg-indigo-700 text-white;
+    }
+
+    .light-purple-button {
+        @apply light-purple bg-indigo-100 text-indigo-700;
+    }
+
+    .tag-button {
+        @apply text-black capitalize font-bold rounded-full border-2 px-2 ml-1;
+    }
+
+    .tag-button::before {
+        content: "\2022";
+        color: red;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+    }
+};
+
+@layer utilities {
+    .dark-purple {
+        @apply rounded-md py-1 px-3 drop-shadow-xl text-sm mx-1 h-8;
+    }
+
+    .light-purple {
+        @apply rounded-md py-1 px-3 drop-shadow-xl text-sm mx-1 h-8;
+    }
+
+    .person-image {
+        @apply rounded-full object-top w-7 h-7;
     }
 
     .person-list-item {
         border-top: 2px solid #d1d5db;
     }
-}
+};

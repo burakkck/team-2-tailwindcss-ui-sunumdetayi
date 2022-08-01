@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .img-button {
+        @apply mx-4 bg-light-purple;
+    }
+}
