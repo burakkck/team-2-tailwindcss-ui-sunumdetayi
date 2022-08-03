@@ -40,4 +40,57 @@
     .person-image {
         @apply rounded-full object-top w-7 h-7;
     }
+
+    .person-image-big {
+        @apply rounded-full object-top w-10 h-10;
+    }
+
+    .expert-list-item {
+        border-top: 1px solid #d1d5db;
+    }
+
+    #right {
+        border-left: 1px solid #d1d5db;
+    }
+
+    .shared-friends::-webkit-scrollbar {
+        height: 10px;
+    }
+      
+    .shared-friends::-webkit-scrollbar-track {
+        background: #E5E7EB;
+        border-radius: 20px;
+        height: 5px;
+    }
+      
+    .shared-friends::-webkit-scrollbar-thumb {
+        background-color: #4338CA;
+        border-radius: 20px;
+    }
+
+    .expert-list::-webkit-scrollbar {
+        width: 10px;
+    }
+      
+    .expert-list::-webkit-scrollbar-track {
+        background: #E5E7EB;
+        border-radius: 20px;
+        height: 5px;
+    }
+      
+    .expert-list::-webkit-scrollbar-thumb {
+        background-color: #4338CA;
+        border-radius: 20px;
+    }
+
+    .status-circle {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: grey;
+        border: 2px solid white;
+        top: 0;
+        right: 0;
+        position: absolute;
+    }
 };
