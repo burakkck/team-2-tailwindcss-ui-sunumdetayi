@@ -14,6 +14,12 @@ module.exports = {
           },
           aspectRatio: {
             '7/4': '7/4',
+          },
+          spacing: {
+            '120': '30rem',
+            '128': '32rem',
+            '136': '34rem',
+            '144': '36rem',
           }
         }
     },

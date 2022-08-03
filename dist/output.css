@@ -567,10 +567,6 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-<<<<<<< HEAD
-.person-list-item {
-  border-top: 2px solid #d1d5db;
-=======
 .dark-purple-button {
   --tw-bg-opacity: 1;
   background-color: rgb(67 56 202 / var(--tw-bg-opacity));
@@ -627,12 +623,45 @@ video {
   font-weight: bold;
   display: inline-block;
   width: 1em;
->>>>>>> master
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.float-left {
+  float: left;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .mr-36 {
@@ -643,17 +672,26 @@ video {
   margin-bottom: 0.25rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .mr-20 {
   margin-right: 5rem;
 }
 
-<<<<<<< HEAD
-=======
 .mt-5 {
   margin-top: 1.25rem;
 }
 
->>>>>>> master
 .ml-1 {
   margin-left: 0.25rem;
 }
@@ -690,33 +728,42 @@ video {
   height: 1rem;
 }
 
-<<<<<<< HEAD
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
 .h-16 {
   height: 4rem;
-=======
-.h-64 {
-  height: 16rem;
 }
 
-.h-72 {
-  height: 18rem;
+.max-h-full {
+  max-height: 100%;
 }
 
-.h-80 {
-  height: 20rem;
+.max-h-96 {
+  max-height: 24rem;
 }
 
-.h-96 {
-  height: 24rem;
->>>>>>> master
+.max-h-24 {
+  max-height: 6rem;
 }
 
 .max-h-20 {
   max-height: 5rem;
 }
 
-.max-h-96 {
-  max-height: 24rem;
+.max-h-min {
+  max-height: -webkit-min-content;
+  max-height: -moz-min-content;
+  max-height: min-content;
+}
+
+.max-h-120 {
+  max-height: 30rem;
 }
 
 .w-40 {
@@ -739,8 +786,20 @@ video {
   width: 1rem;
 }
 
+.w-5 {
+  width: 1.25rem;
+}
+
 .w-1\/2 {
   width: 50%;
+}
+
+.w-5\/12 {
+  width: 41.666667%;
+}
+
+.w-2\/12 {
+  width: 16.666667%;
 }
 
 .basis-1\/8 {
@@ -791,18 +850,16 @@ video {
   gap: 2.75rem;
 }
 
-.gap-1 {
-  gap: 0.25rem;
-<<<<<<< HEAD
-=======
-}
-
-.gap-2 {
-  gap: 0.5rem;
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
@@ -821,17 +878,12 @@ video {
   border-style: dashed;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .overflow-y-auto {
   overflow-y: auto;
-}
-
-.overflow-y-scroll {
-  overflow-y: scroll;
->>>>>>> master
-}
-
-.gap-2 {
-  gap: 0.5rem;
 }
 
 .rounded-full {
@@ -842,13 +894,16 @@ video {
   border-radius: 0.375rem;
 }
 
-.border-b {
-  border-bottom-width: 1px;
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
-.border-gray-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(156 163 175 / var(--tw-border-opacity));
+.border {
+  border-width: 1px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
 }
 
 .bg-white {
@@ -861,30 +916,27 @@ video {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
-.bg-red-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
-}
-
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
-<<<<<<< HEAD
 .bg-indigo-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(67 56 202 / var(--tw-bg-opacity));
 }
 
-=======
->>>>>>> master
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
 
-.p-10 {
-  padding: 2.5rem;
+.p-1 {
+  padding: 0.25rem;
 }
 
 .p-5 {
@@ -905,10 +957,29 @@ video {
   padding-bottom: 0.5rem;
 }
 
-<<<<<<< HEAD
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .py-1 {
@@ -916,41 +987,26 @@ video {
   padding-bottom: 0.25rem;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-=======
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
->>>>>>> master
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .align-middle {
   vertical-align: middle;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
-.pt-1 {
-  padding-top: 0.25rem;
-}
-
-<<<<<<< HEAD
-=======
-.pr-1 {
-  padding-right: 0.25rem;
-}
-
-.pr-2 {
-  padding-right: 0.5rem;
-}
-
-.text-center {
-  text-align: center;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-xl {
@@ -958,13 +1014,12 @@ video {
   line-height: 1.75rem;
 }
 
->>>>>>> master
-.font-medium {
-  font-weight: 500;
-}
-
 .font-bold {
   font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .text-gray-400 {
@@ -977,10 +1032,74 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-indigo-700 {
+  --tw-text-opacity: 1;
+  color: rgb(67 56 202 / var(--tw-text-opacity));
+}
+
 .person-image {
   height: 1.75rem;
   width: 1.75rem;
   border-radius: 9999px;
   -o-object-position: top;
      object-position: top;
+}
+
+.person-image-big {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 9999px;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.expert-list-item {
+  border-top: 1px solid #d1d5db;
+}
+
+#right {
+  border-left: 1px solid #d1d5db;
+}
+
+.shared-friends::-webkit-scrollbar {
+  height: 10px;
+}
+
+.shared-friends::-webkit-scrollbar-track {
+  background: #E5E7EB;
+  border-radius: 20px;
+  height: 5px;
+}
+
+.shared-friends::-webkit-scrollbar-thumb {
+  background-color: #4338CA;
+  border-radius: 20px;
+}
+
+.expert-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.expert-list::-webkit-scrollbar-track {
+  background: #E5E7EB;
+  border-radius: 20px;
+  height: 5px;
+}
+
+.expert-list::-webkit-scrollbar-thumb {
+  background-color: #4338CA;
+  border-radius: 20px;
+}
+
+.hover\:overflow-x-scroll:hover {
+  overflow-x: scroll;
+}
+
+.hover\:overflow-y-scroll:hover {
+  overflow-y: scroll;
 };
