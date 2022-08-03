@@ -762,8 +762,12 @@ video {
   max-height: min-content;
 }
 
-.max-h-120 {
-  max-height: 30rem;
+.max-h-144 {
+  max-height: 36rem;
+}
+
+.max-h-160 {
+  max-height: 40rem;
 }
 
 .w-40 {
