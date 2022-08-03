@@ -82,4 +82,15 @@
         background-color: #4338CA;
         border-radius: 20px;
     }
+
+    .status-circle {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: grey;
+        border: 2px solid white;
+        top: 0;
+        right: 0;
+        position: absolute;
+    }
 };

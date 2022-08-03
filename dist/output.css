@@ -664,16 +664,6 @@ video {
   margin-bottom: auto;
 }
 
-.-mx-3 {
-  margin-left: -0.75rem;
-  margin-right: -0.75rem;
-}
-
-.-mx-1 {
-  margin-left: -0.25rem;
-  margin-right: -0.25rem;
-}
-
 .mr-36 {
   margin-right: 9rem;
 }
@@ -758,10 +748,6 @@ video {
   height: 1.75rem;
 }
 
-.h-3 {
-  height: 0.75rem;
-}
-
 .max-h-full {
   max-height: 100%;
 }
@@ -826,22 +812,6 @@ video {
 
 .w-7 {
   width: 1.75rem;
-}
-
-.w-3 {
-  width: 0.75rem;
-}
-
-.w-8 {
-  width: 2rem;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
-.max-w-none {
-  max-width: none;
 }
 
 .basis-1\/8 {
@@ -1136,6 +1106,17 @@ video {
 .expert-list::-webkit-scrollbar-thumb {
   background-color: #4338CA;
   border-radius: 20px;
+}
+
+.status-circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: grey;
+  border: 2px solid white;
+  top: 0;
+  right: 0;
+  position: absolute;
 }
 
 .hover\:overflow-x-scroll:hover {
